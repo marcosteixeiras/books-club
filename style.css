@@ -494,7 +494,7 @@ body::after {
 /* ===================== ENCONTRO ===================== */
 .encounter {
   padding: clamp(5rem, 10vw, 8rem) 0;
-  background: var(--dark-surface);
+  background: #f0e7e1;
   position: relative;
 }
 
@@ -524,8 +524,7 @@ body::after {
 .encounter-card__icon {
   font-family: var(--font-display);
   font-size: 1.8rem;
-  color: var(--gold);
-  opacity: 0.4;
+  color: #ffffff;
   margin-bottom: 1rem;
   display: block;
 }
@@ -592,14 +591,14 @@ body::after {
 .method-block {
   position: relative;
   padding-left: 1.5rem;
-  border-left: 2px solid var(--wine-dim);
+  border-left: 2px solid var(--gold-dim);
 }
 
 .method-block h3 {
   font-family: var(--font-display);
   font-size: 1.2rem;
   font-weight: 500;
-  color: var(--wine-light);
+  color: var(--gold);
   margin-bottom: 1rem;
 }
 
@@ -865,11 +864,10 @@ body::after {
 
 .footer__crp {
   font-family: var(--font-accent);
-  font-size: 0.78rem;
-  letter-spacing: 0.2em;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: var(--gold-dim);
-  opacity: 0.5;
+  color: var(--gold-pale);
   margin-bottom: 1.5rem;
 }
 
@@ -909,17 +907,29 @@ body::after {
   background: #f0e7e1;
 }
 .identification .section-title { color: #1e0b0f; }
-.identification .section-title em { color: var(--wine); }
+.identification .section-title em { color: var(--gold); }
 .pain-grid { background: rgba(139, 42, 56, 0.1); }
 .pain-cell { background: #f0e7e1; }
 .pain-cell:hover { background: #e5d9d3; }
-.pain-cell__number { color: var(--wine); }
+.pain-cell__number { color: var(--gold); }
 .pain-cell__text { color: #4a3330; }
+
+/* --- Encontro --- */
+.encounter .section-title { color: #1e0b0f; }
+.encounter .section-title em { color: var(--gold); }
+.encounter-card__icon { color: var(--gold) !important; }
+.encounter-card__title { color: #1e0b0f; }
+.encounter-card__desc { color: #4a3330; }
+.encounter-card { border-right-color: rgba(139, 42, 56, 0.12); }
+.encounter-card:hover { background: #e5d9d3; }
+.encounter__info { border-color: rgba(139, 42, 56, 0.15); }
+.encounter__info p { color: #4a3330; }
+.encounter__info strong { color: var(--gold-dim); }
 
 /* --- Metodologia --- */
 .methodology { background: #f0e7e1; }
 .methodology .section-title { color: #1e0b0f; }
-.methodology .section-title em { color: var(--wine); }
+.methodology .section-title em { color: var(--gold); }
 .method-block { border-left-color: var(--wine); }
 .method-block h3 { color: var(--wine-dim); }
 .method-block p { color: #4a3330; }
@@ -931,11 +941,11 @@ body::after {
 /* --- Incluso --- */
 .included { background: #f0e7e1; }
 .included .section-title { color: #1e0b0f; }
-.included .section-title em { color: var(--wine); }
+.included .section-title em { color: var(--gold); }
 .included__grid { background: rgba(139, 42, 56, 0.08); }
 .included__cell { background: #f0e7e1; }
 .included__cell:hover { background: #e5d9d3; }
-.included__cell-icon { color: var(--wine); opacity: 0.7; }
+.included__cell-icon { color: var(--gold); }
 .included__cell-text { color: #4a3330; }
 
 /* --- FAQ --- */
